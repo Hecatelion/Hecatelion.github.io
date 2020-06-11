@@ -1,3 +1,8 @@
+body
+{
+	margin: 0px;
+}
+
 header
 {
 	background-color: grey;
@@ -14,6 +19,7 @@ header h1
 header h2
 {
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 #home-link, #contact-link

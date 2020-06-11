@@ -1,16 +1,25 @@
-// project page
+
+• CVs - contact page
+
+• footer
+
+• ship online
+
+• make it fancy (colors)
+
+• fill w/ real content 
+
+- home all projects
+- projetcs pages
+- contact GPP CV
+
+
+// BONUS
 
 • <tag> (for game type)
 
 • <download> (to download games)
 
-• "what have I done?" section (w/ lines)
+• icone onglet
 
-
-// else
-
-• CVs - contact page
-
-• ship online
-
-• fill w/ real content 
+• hover
