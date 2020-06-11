@@ -1,0 +1,39 @@
+p
+{
+	font-size: 1.1em;
+}
+
+.overview
+{
+	width: 80%;
+	height: 50%;
+	margin: 20px auto 20px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.infos
+{
+	width: 50%;
+	padding-right: 50px;
+}
+
+.task-list
+{
+	font-size: 1.2em;
+	width: 40%;
+	margin: 20px auto 20px;
+	justify-content: center;
+
+	display: flex;
+	flex-direction: row;
+
+	background-color: yellow;
+}
+
+.task-list > ul
+{
+	margin: 0 20px;
+}

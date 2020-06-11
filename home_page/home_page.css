@@ -1,48 +1,3 @@
-line
-{
-	display: block;
-	width: 90%;
-	height: 5px;
-	margin: 5px auto 5px; /*horizontal vertical*/
-
-	background-color: grey;
-}
-
-/*Header*/
-header
-{
-	background-color: grey;
-
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-header h1
-{
-	text-align: center;
-	font-size: 2.5em;
-}
-header h2
-{
-	text-align: center;
-}
-
-#home-link, #contact-link
-{
-	width: 20%;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#home-link a, #contact-link a
-{
-	font-size: 1.5em;
-}
-
-/*Section Project Catalogue*/
 section.project-catalogue
 {
 	margin: 25px auto;
@@ -68,12 +23,18 @@ section.project-catalogue ul
 
 section.project-catalogue li
 {
-	width: 17%;
-	margin-left: 5%;
+	width: 20%;
+	margin-left: 3%;
 }
 
 section.project-catalogue img
 {
 	width: 100%;
 	height: auto;
+}
+
+figcaption
+{
+	text-align: center;
+	font-size: 1.2em;
 }
