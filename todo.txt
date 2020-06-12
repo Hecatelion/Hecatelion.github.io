@@ -1,8 +1,4 @@
 
-• CVs - contact page
-
-• footer
-
 • ship online
 
 • make it fancy (colors)
@@ -15,6 +11,8 @@
 
 
 // BONUS
+
+• footer
 
 • <tag> (for game type)
 
