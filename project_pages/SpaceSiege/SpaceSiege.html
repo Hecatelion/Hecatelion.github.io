@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>Space Siege</h1>
+			<download>
+				<a href="resources/SpaceSiege.rar" target="_blank">Download</a>
+			</download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>type : Sandbox / Construction game</li>
+				<li>team : 1 programmer</li>
+				<li>dev duration : around 70 hours</li>
+				<li>engine, langage : Unity C#</li>
+			</ul>
+
+			<h2>Pitch</h2>
+			<p>A game based on the core gameplay of the game Besiege, a medieval vehicle contruction game. In this project I wanted to have another vision of this concept, that's why I decided to allow the player create space ship in which electricity is bought on the light! Indeed in Space Siege, you can build vehicle with generators, circuits, blocks, switches and reactors. The only interactible blocks are the switches, which implies that if you want to make your space ship going forward when pressing Z, you have to link a Switch (bound to the Z key) to a circuit linked to a reactor. This system allow player to create his own vehicles commands only using logic connectors. A quite elegant gameplay mecanic that I really linked to design and code!</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/1.png"></slide>
+				<slide><img src="resources/2.png"></slide>
+				<slide><img src="resources/3.png"></slide>
+				<slide><img src="resources/4.png"></slide>
+				<slide><img src="resources/5.png"></slide>
+				<slide><img src="resources/6.png"></slide>
+				<slide><img src="resources/7.png"></slide>
+				<slide><img src="resources/8.png"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>vehicle construction block after block</li>
+					<li>creating and interaction with blocks using raycastring</li>
+					<li>block destruction block by block by using propagation algorithm</li>
+					<li>electric system using pathfinding algorithm (A* like)</li>
+					<li>save system</li>
+					<li>key binding and managing system</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Designer</h2>
+				<ul>
+					<li>getting the Besiege experience and find a fun alternative <br>its game concept</li>
+					<li>thinking about an electrical system rewarding theory craft <br>but not too much restrictive to let fun come quick</li>
+					<li>listing block categories and different block for each <br>category (some not implemented)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

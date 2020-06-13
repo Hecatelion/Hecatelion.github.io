@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>Pandemic : Rapid Response</h1>
+			<download>
+				<a href="resources/Pandemic.rar" target="_blank">Download</a>
+				<a href="https://drive.google.com/drive/folders/1Bl0OMCMnz3pHbsFuaU9nwF4-p927DAoX?usp=sharing" target="_blank">Presentation Doc</a>
+			</download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>type : Board Game Adaptation</li>
+				<li>team : 1 programmer</li>
+				<li>dev duration : 50 hours</li>
+				<li>engine, langage : Unity C#</li>
+			</ul>
+
+			<h2>Pitch</h2>
+			<p>Exercise in which I had to act like answering a request for proposal of which topic was 'make an adaptation of the boar game Pandemic : Rapid Response'. During this project I tried to focus in a first time on main features, I tried to use the original game assets in order to make clients reassured about the game environement. Then when the prototype was fully playable, I wrote a presentation document explaining my choices and giving some ideas about this prototype possible evolution. I especially gave 2 versions, 2 visions of what could be a Pandemic adaptation depending on the marketing target and intentions.</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/1.png"></slide>
+				<slide><img src="resources/2.png"></slide>
+				<slide><img src="resources/3.png"></slide>
+				<slide><img src="resources/4.png"></slide>
+				<slide><img src="resources/5.png"></slide>
+				<slide><img src="resources/6.png"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>analyse and understand in depth game features</li>
+					<li>task priorisation</li>
+					<li>implementing all game rules and mecanics</li>
+					<li>turn and time system</li>
+					<li>pawn, dice, crates manipulation system</li>
+					<li>card drawing and task completion</li>
+					<li>option menu</li>
+					<li>win/lose condition</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Designer</h2>
+				<ul>
+					<li>getting the desired experience provided by the game design of Pandemic</li>
+					<li>adatpting this physical game experience to a virtual game</li>
+					<li>thinking about the client intentions and possible marketing <br> to make relevant decision about my design</li>
+					<li>suggest 2 design approaches : <br>- management game (with strong video game identity) <br>- board game (with physical pawn manipulation)</li>
+					<li>making a presentation document to convince and explain my concepts <br>and choices to the clients</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

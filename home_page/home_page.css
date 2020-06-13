@@ -31,6 +31,10 @@ section.project-catalogue img
 {
 	width: 100%;
 	height: auto;
+
+	border-color: grey;
+	border-style: solid;
+	border-width: thin;
 }
 
 figcaption
