@@ -9,6 +9,8 @@
 
 // BONUS
 
+• home page : hover (roles)
+
 • footer
 
 • <tag> (for game type)
@@ -16,5 +18,3 @@
 • <download> (fancy button)
 
 • icone onglet
-
-• home page : hover (roles)
