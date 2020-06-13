@@ -1,13 +1,10 @@
 
-• ship online
-
 • make it fancy (colors)
 
 • fill w/ real content 
-
-- home all projects
-- projetcs pages
-- contact GPP CV
+- home : all projects
+- projetcs pages : real content
+- contact : GPP CV
 
 
 // BONUS
@@ -16,8 +13,8 @@
 
 • <tag> (for game type)
 
-• <download> (to download games)
+• <download> (fancy button)
 
 • icone onglet
 
-• hover
+• home page : hover (roles)

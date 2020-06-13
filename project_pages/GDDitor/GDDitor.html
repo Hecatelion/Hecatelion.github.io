@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>GDDitor</h1>
+			<download>
+				<a href="resources/GDDitor.rar" target="_blank">Download</a>
+				<a href="https://drive.google.com/drive/folders/1QP32iZJBl6TtckQVVXui58zVI5IEJNSN?usp=sharing" target="_blank">Presentation Doc</a>
+			</download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>type : GDD Editor (software developement)</li>
+				<li>team : 1 programmer</li>
+				<li>dev duration : around 35 hours</li>
+				<li>engine, langage : C++ Qt</li>
+			</ul>
+
+			<h2>Pitch</h2>
+			<p>Willing to be able to developp my own tools if needed, I decided to learn the Qt C++ library, a UI oriented lib. Learning by reading, trying and testing features is interesting but doing it with a goal makes it even more exciting. That's why I decided to created a little editor prototype based on "mental maps". That's how this GDD editor was created, of course it is really basics and not production ready but coding it made me better understand some limits of my mental maps concept by tweeking it in many ways. It also fulfilled the first intented goal too : learning how to code external tool which would be useful to a designer and get some experience in software architecture!
+			NB: Only openable with Qt Creator for now.</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/1.png"></slide>
+				<slide><img src="resources/2.png"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>learning Qt library</li>
+					<li>trying out needed features in a sandbox project</li>
+					<li>designing architecture of the software</li>
+					<li>coding all the editor</li>
+					<li>implementing save system</li>
+					<li>research about .exe exporting</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Designer</h2>
+				<ul>
+					<li>spending time on thinking how to design the mental card system</li>
+					<li>presentation document (+ public speech)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

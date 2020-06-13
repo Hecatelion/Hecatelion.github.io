@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>Fighting Ability Tool</h1>
+			<download>
+				<a href="resources/FightingTool.rar" target="_blank">Download</a>
+				<a href="https://drive.google.com/drive/folders/1QM7PNTLtO3w9n3XHuiRaTmh8DtT6bkUW?usp=sharing" target="_blank">Presentation Doc</a>
+			</download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>type : Unity Editor Tool</li>
+				<li>team : 1 programmer</li>
+				<li>dev duration : around 25 hours</li>
+				<li>engine, langage : Unity C#, unity editor</li>
+			</ul>
+
+			<h2>Pitch</h2>
+			<p>During group project and school lessons, I did not encounter the opportunity to work with unity editor scripting. However, seeing some coworkers exploring these Unity Engine features, I figured out that it was very powerful and might be really useful one day. Indeed, it allows to create tools directly included to the Unity Engine environement, making user save time and making the time spent in tool development highly profitable because easily re-usable. For example, a tool helping creating and managing Fighting Game Abilities and Input, would make prototyping, designing and balancing way faster and efficient. That's why I spent some time to learn more about how to deal with Unity Editor Scripts. Moreover a Fighting Game-lover I studied some time ago how all those, frames, boxes, input, science was working and I decided that making a tool about it, would be intersting on both topic : Design and Programming!</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/1.png"></slide>
+				<slide><img src="resources/2.png"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>learning script editor and custom tool window</li>
+					<li>working with scriptable objects</li>
+					<li>sprite parsing</li>
+					<li>box creating, removing, resizing, moving</li>
+					<li>saving data</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Designer</h2>
+				<ul>
+					<li>studying fighting games' logic and features</li>
+					<li>tool ergonomy (hastily)</li>
+					<li>presentation document (+ public speech)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
