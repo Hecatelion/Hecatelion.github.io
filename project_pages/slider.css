@@ -8,15 +8,16 @@ html, body
 
 .slider
 {
-	width: 50%;
-	height: 90%;
+	/*width: 50%;
+	height: 90%;*/
+	width: 720px;
+	height: 405px;
+
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	margin: auto;
 	margin-top: 0px;
-
-	background-color: yellow;
 }
 
 .slider > button
