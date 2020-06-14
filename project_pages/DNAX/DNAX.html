@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>DNAX (WIP)</h1>
+			<download>
+				<a href="https://drive.google.com/drive/folders/1nkS-I9VbFMMV3XO6je7XLfzGw8FvaMc1?usp=sharing" target="_blank">Game Design Document (WIP)</a>
+			</download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>type : Top-Down Metroid-Vania Action Puzzle Exploration Game</li>
+				<li>team : 1 game &amp; level designer / programmer</li>
+				<li>dev duration : some hours scattered on my free time for months</li>
+				<li>engine, langage : Unity C# (prototype not done yet, comming soon)</li>
+			</ul>
+
+			<h2>Pitch</h2>
+			<p>Embody a mysterious asteroid inhabited by an alien which crashed on a planet far in space. This alien won't be able to move or quit this asteroid but it as the possibility of instantiating organism of which it'll chose the cells and genes. In DNAX, create extrarrestrial creatures, explore your environment, gather new genes by understanding and conquer the surrounding ecosystems and evolve to inhance your skills! <br>
+			I have found this game concept while thinking about ideas for a game jam I was about to participate to. Indeed I wanted to train my ability to find quick ideas on random themes and this one appeared. It didn't fit with the real theme that was annonced later but I kept it in my mind. Then some weeks after the jam I realised that I really liked the DNAX concept and identity so I decided to spend time to develop the idea and train my GD, LD, GDD making, skills. Now I'm about to prototype the first level on Unity!</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/1.png"></slide>
+				<slide><img src="resources/2.png"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>deduce and adapt to technical requirement of a game design</li>
+					<li>architecturing the main features : producing an UML</li>
+					<li>prototyping a testing version of the game to test design relevance and robistness</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Game &amp; Level Designer</h2>
+				<ul>
+					<li>finding a concept on a precise theme</li>
+					<li>exploring this concept, brainstorming</li>
+					<li>test the different ideas compatibility</li>
+					<li>enemy, AI design</li>
+					<li>ergonomy, UI design</li>
+					<li>micro level design (tutorial and classical level)</li>
+					<li>macro level design (map and key steps of progression in the playing space)</li>
+					<li>lore / story writing, quest design</li>
+					<li>artistic direction reflections (environment &amp; character design)</li>
+					<li>producing a mini-game design document to sum up main ideas in 10 to 15 pages</li>
+					<li>producing a larger GDD to detail each axes of the game</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

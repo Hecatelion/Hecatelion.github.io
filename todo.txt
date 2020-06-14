@@ -9,7 +9,7 @@
 
 // BONUS
 
-• home page : hover (roles)
+• home page : hover (roles) (wip)
 
 • footer
 
