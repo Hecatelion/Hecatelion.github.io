@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>Space Adventurers</h1>
+			<download>
+				<a href="https://globalgamejam.org/2020/games/space-adventurers-2" target="_blank">Global Gam Jam page</a>
+			</download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>type : Chaotic Coop Party Game</li>
+				<li>team : 3 programmers &amp; 3 artists</li>
+				<li>dev duration : 2 game jam days (pretty intense!)</li>
+				<li>engine, langage : Unreal Engine 4, Blueprint</li>
+			</ul>
+
+			<h2>Pitch</h2>
+			<p>A little party game in which Tom and Luna, two kids playing in their room try to make their space ship reach the moon, fighting aliens and repairing machines! <br>This was the second Jam I participated but the first Global Game Jam! For this occasion my team and I had decided to do it working with Unreal Engine to improve our understanding of this engine, that at this moment we didn't know well. We had chosen to create a casual party game so that it will be easy to understand and playable by most of the players. The theme announced was "Repair" and we wanted to make a game where kids were just having fun, such as us, grown kids having fun in a jam!</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/1.png"></slide>
+				<slide><img src="resources/2.png"></slide>
+				<slide><img src="resources/3.png"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>interaction with some props, throwing and catching elements</li>
+					<li>timer, UI and win/lose condition</li>
+					<li>learning blueprint and UE4</li>
+					<li>surviving blueprint (this was kinda new and time were constantly running out)</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Designer</h2>
+				<ul>
+					<li>brainstorming leading</li>
+					<li>game concept and theme proposals</li>
+					<li>working on affordance (hastily)</li>
+					<li>bedroom modules' repartition (level design) (hastily)</li>
+					<li>partnership with another group : one challenge of this GGJ was "having common
+						universe with another jam group", I noticed that another group was making a card
+						game so we put some easter eggs in their games and they do the same on their side!</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
