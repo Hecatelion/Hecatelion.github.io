@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>Sea Side Runner</h1>
+			<download><a href="https://drive.google.com/file/d/1LI-NNytK-sWwDb_FnOjgiLuEjHU73sIZ/view?usp=sharing" target="_blank">Download</a></download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>game type : runner, mobile game</li>
+				<li>team : 1 game &amp; level designer / programmer, 4 programmers, 5 artists, 1 musician</li>
+				<li>dev duration : around 85 hours</li>
+				<li>engine, langage : Unity C#</li>
+			</ul>
+
+			<h2>Pitch &amp; Context</h2>
+			<p>At the bottom of the sea, some little fishes and other sea creatures are swimming to get rid off a naughty lantern fish who chasing them. <br>
+			Sea Side Runner was the first unity and mobile game of my team, we decided to do a classical runner type game but with a difficulty a little bit higher than hyper-casual ones.</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/1.jpg"></slide>
+				<slide><img src="resources/2.jpg"></slide>
+				<slide><img src="resources/3.jpg"></slide>
+				<slide><img src="resources/4.jpg"></slide>
+				<slide><img src="resources/5.jpg"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>procedural map generation</li>
+					<li>LD bricks creation</li>
+					<li>tutorial programming</li>
+					<li>assets integration</li>
+					<li>gameplay programming</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Level Designer</h2>
+				<ul>
+					<li>Game Concept, presented to the rest of the team, then discussion about it</li>
+					<li>level design : different bricks of various difficulty</li>
+					<li>tutorial design</li>
+					<li>pace and difficulty balancing</li>
+					<li>public speech to present our game during milestones (with presentation doc created with an artist)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
