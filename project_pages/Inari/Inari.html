@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>Inari, the last kami</h1>
+			<download>
+				<a href="https://www.creajeux.fr/project/inari/" target="_blank">Download on Creajeux</a>
+				<a href="resources/GDD.odt" target="_blank">GDD (eng)</a>
+				<a href="resources/Prez_Finale.odp" target="_blank">Presentation Doc (fr)</a>
+			</download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>game type : slow pace, 3D platformer, puzzle game</li>
+				<li>references : portal, Zelda : breath of the wild, Ratchet &amp; Clank : a crack in time</li>
+				<li>target : core gamers</li>
+				<li>team : 1 game &amp; level designer / programmer, 5 programmers, 4 artists</li>
+				<li>dev duration : 9 weeks</li>
+				<li>engine, langage : Unity C#</li>
+			</ul>
+
+			<h2>Pitch, Context &amp; Trivia</h2>
+			<p>A dark technology powered by a mysterious energy is corumpting human-beings soul, as Inari, last kami alive, your mission is to climb the power were the mysterious energy source is kept. Pass multiple enigmatic rooms, use your duplication powers to establish a delayed solo cooperation gameplay, and discover the majesty of this evil tower. <br>
+			Inari was our second long time and unity project, we tried to develop a game more accessible than Radial, with a slow pace, an easier difficulty level and way more soft difficulty curve. <br>
+			Inari was prensent on the 2019 Paris Games Week too!</p></p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/1.jpg"></slide>
+				<slide><img src="resources/2.jpg"></slide>
+				<slide><img src="resources/3.jpg"></slide>
+				<slide><img src="resources/4.jpg"></slide>
+				<slide><img src="resources/5.jpg"></slide>
+				<slide><img src="resources/6.jpg"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>tutorial</li>
+					<li>UI</li>
+					<li>SFXs</li>
+					<li>asset integration</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Game &amp; Level Designer</h2>
+				<ul>
+					<li>establishing Game Concepts ideas, presented to the rest of the team, then discussion about it</li>
+					<li>force of proposal all along production (without idea monopole despotism of course)</li>
+					<li>writing a Game Design Document (in english) covering : Gameplay, Game Loop, Level Design, Story &amp; Lore</li>
+					<li>writing a short Level Building Charter Document</li>
+					<li>full level design : schemas, blockout, test, graph integration</li>
+					<li>tutorial design</li>
+					<li>difficulty curve balancing</li>
+					<li>working on UI and control mapping on both controller and mouse/keyboard</li>
+					<li>presentation doc design with an artist</li>
+					<li>milestones public presentation, speeches and gameplay live commentary (in english and french), <br>
+						in front of teacher, dozens of students and professional jury</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
