@@ -1,19 +1,11 @@
 • make it fancy (colors)
 
-• fill w/ real content 
-- home : all projects
-- projetcs pages : real content
-- contact : GPP CV
-
-
-// BONUS
-
 • home page : hover (roles) (wip)
-
-• footer
 
 • <tag> (for game type)
 
-• <download> (fancy button)
+• footer
 
 • icone onglet
+
+• <download> (fancy button)

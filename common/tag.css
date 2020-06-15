@@ -1,0 +1,17 @@
+.tag
+{
+	background-color: yellow;
+	border-radius: 100px;
+	padding: 2px 8px;
+	margin-left: 5px;
+}
+.tag.red 	{	background-color: #ff3333;	}
+.tag.blue 	{	background-color: #4d79ff;	}
+.tag.green 	{	background-color: #00e600;	}
+.tag.orange {	background-color: #ffa64d;	}
+.tag.purple {	background-color: #a366ff;	}
+.tag.brown 	{	background-color: #b34700;	}
+.tag.pink	{	background-color: #ff80df;	}
+.tag.cyan	{	background-color: #00ffcc;	}
+.tag.yellow	{	background-color: #ffcc00;	}
+.tag.grey 	{	background-color: #b3b3b3;	}
