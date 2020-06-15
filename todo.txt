@@ -1,5 +1,3 @@
-• order projects on home page
-
 • make it fancy (colors)
 
 • fill w/ real content 
