@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>WhichCraft</h1>
+			<download>
+				<a href="https://drive.google.com/file/d/1S5hCConydYdAbA3xDp63IFGfeeKcUH3U/view?usp=sharing" target="_blank">Download</a>
+				<a href="https://drive.google.com/drive/folders/1Of5Z27ns4r67dloxX0HS69hb9Bh31P4S?usp=sharing" target="_blank">GDD (eng)</a>
+				<a href="https://docs.google.com/presentation/d/1xHlDS9RcaNbvhdfH-9C1WWD3sTQi7mJ_w27pjm0Cqic/edit?usp=sharing" target="_blank">Presentation Doc (eng)</a>
+			</download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>game type : top-down alchemy adventure game, metroid-like moba mecanics PVE</li>
+				<li>references : Magicka, Battlerite, Full Metal Alchemist </li>
+				<li>target : core gamers</li>
+				<li>team : 1 game &amp; level designer / programmer, 5 programmers, 4 to 1 artist(s)</li>
+				<li>dev duration : 9 weeks</li>
+				<li>engine, langage : Unity C#</li>
+			</ul>
+
+			<h2>Pitch, Context &amp; Trivia</h2>
+			<p>After an explosion in the laboratory of the ancient forest, you, an alchemical puppet, wakes up and find your Grand'Pa unconscious. Go on an adventure in the magic woods to find a soul fragment to revive him. In your journey, you'll learn how to use alchemy to craft powerful spells and get rid off the naughty monsters.<br>
+			As our last school project we tried to have the most polished project possible. Due to the COVID-19 issues and the internship period, we had to adapt our work flow to the remote working and to a reduced amount of artist. We managed to ship a project we are proud of, thanks to a design allowing a flexible content scaling (enemy, ld, abilities, collectibles, etc.).<br>
+			I though about this game concept in 1st year, then I presented my ideas to my team and we decided to work on this theme during our 3rd year. So I worked on my freetime a lot to step up in game designing and worked on WhichCraft? before the production phase. Taking time to mature my ideas.</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><video src="resources/trailer.mp4" controls></video></slide>
+				<slide><img src="resources/menu.png"></slide>
+				<slide><img src="resources/0.png"></slide>
+				<slide><img src="resources/1.png"></slide>
+				<slide><img src="resources/2.png"></slide>
+				<slide><img src="resources/3.png"></slide>
+				<slide><img src="resources/4.png"></slide>
+				<slide><img src="resources/5.png"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As a Programmer</h2>
+				<ul>
+					<li>tutorial</li>
+					<li>task/quest system</li>
+					<li>dialog system</li>
+					<li>interactibles/collectibles</li>
+					<li>levels save system (collectibles en events)</li>
+					<li>SFXs</li>
+					<li>assets integration</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As a Game &amp; Level Designer</h2>
+				<ul>
+					<li>establishing Game Concepts ideas, presented to the rest of the team, then discussion about it</li>
+					<li>force of proposal all along production (without idea monopole despotism of course)</li>
+					<li>writing a Game Design Document (in english) covering : Gameplay, Game Loop, <br>
+						Level Design (lvl examples, enemies, items &amp; rules, full tutorial v1), <br>
+						Story &amp; Lore (including story board and in game writing style), UI</li>
+					<li>full level design : schemas, blockout, test, graph integration, map design</li>
+					<li>tutorial design</li>
+					<li>difficulty curve balancing</li>
+					<li>enemies/AI design</li>
+					<li>working on ergonomy</li>
+					<li>presentation doc design with an artist</li>
+					<li>milestones public presentation, speeches and gameplay live commentary (in english and french)</li>
+					<li>puns master : indeed WhichCraft? looks like mispell (here is a pun too) of "Witchcraft" but it actually <br>
+						is a nod to the main problematic of this game "WHICH spell CRAFT when according to the foes and environment?"</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
