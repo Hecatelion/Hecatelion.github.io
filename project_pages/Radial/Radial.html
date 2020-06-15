@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="baptiste billard" content="">
+
+  <link rel="stylesheet" href="../../common/line.css">
+  <link rel="stylesheet" href="../../common/portefolio_header.css">
+  <link rel="stylesheet" href="../slider.css">
+  <link rel="stylesheet" href="../project_page.css">
+
+  <title>Billard Baptiste</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="home-link"><a href="../../home_page/home_page.html">Home</a></div>
+
+		<div class="title">
+			<h1>Baptiste Billard</h1>
+			<h2>LD - GD - GPP</h2>
+		</div>
+
+		<div id="contact-link"><a href="../../contact_page/contact_page.html">Contact &amp; CV</a></div>
+	</header>
+
+	<div class="overview">
+
+		<div class="infos">
+			<h1>Radial</h1>
+			<download><a href="https://store.steampowered.com/app/1141850/Radial/" target="_blank">Download on Steam</a></download>
+
+			<h2>Characteristics</h2>
+			<ul>
+				<li>game type : speedrun, 2D platforming, puzzle game</li>
+				<li>target : core, hard core gamers</li>
+				<li>team : 1 game &amp; level designer / programmer, 3 programmers, 4 artists, 1 musician</li>
+				<li>dev duration : 8 months</li>
+				<li>engine, langage : C, CSFML, C++, SFML</li>
+			</ul>
+
+			<h2>Pitch, Context &amp; Trivia</h2>
+			<p>Radial is a 2D speedrun oriented platformer in which you will be able to use teleportation portals. Be ready for acrobatic moves, fights against creatures, hidden challenges and race against the clock! Will you master the portals powers and take up the challenge?. <br>
+			Radial is my team first "long" project, we spent 3 months during the production phase of our first bachelor year, then we decided to spend all our holidays time to improve the game, double the amount of levels and ship our game on Steam, for free of course! This was wonderful experience, we learnt a lot, especially about team work, production, milestone, deadline managment, build frequence (never build before the milestone haha), shipping procedure, and even more!</p>
+		</div>
+
+		<div class="slider">
+
+			<button id="sliderNextButton" onclick="previous()"> < </button>
+			<slider>
+				<slide><img src="resources/0.png"></slide>
+				<slide><img src="resources/1.jpg"></slide>
+				<slide><img src="resources/2.jpg"></slide>
+				<slide><img src="resources/3.jpg"></slide>
+				<slide><img src="resources/4.jpg"></slide>
+				<slide><img src="resources/5.jpg"></slide>
+				<slide><img src="resources/6.jpg"></slide>
+			</slider>
+			<button id="sliderNextButton" onclick="next()"> > </button>
+
+		</div>
+		<script src="../slider.js"></script>
+	</div>
+
+	<div id="task-anchor"></div>
+	<line></line>
+
+	<div class="detail">
+		<h1><a href="#task-anchor">What did I do?</a></h1>
+
+		<div class="tasks" id="prog-tasks">
+			<div class="task-section" id="prog-task-section">
+				<h2>As Programmer</h2>
+				<ul>
+					<li>AI programming</li>
+					<li>animator</li>
+					<li>tooling a few</li>
+				</ul>
+			</div>
+		
+			<div class="task-section" id="LD-task-section">
+				<h2>As Level Designer</h2>
+				<ul>
+					<li>full level design : schemas, blockout, test, graph integration</li>
+					<li>blockout with illustrator the first weeks, then using a custom editor developped by our team</li>
+					<li>after the school phase (early July 2017) according to tester feedbacks and our feeling about <br>
+						level duration and difficulty we decided to split all levels in 2 shorter levels, so I rework <br>
+						existing levels while adding some new levels too</li>
+					<li>tutorial design (a lot of testing and balancing)</li>
+					<li>difficulty curve balancing</li>
+					<li>working on UI and control mapping on both controller and mouse/keyboard</li>
+					<li>milestones public presentation, speeches and gameplay live commentary (in english and french), <br>
+						in front of teacher, dozens of students and professional jury</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

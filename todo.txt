@@ -1,3 +1,4 @@
+• order projects on home page
 
 • make it fancy (colors)
 
