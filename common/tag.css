@@ -4,6 +4,7 @@
 	border-radius: 100px;
 	padding: 2px 8px;
 	margin-left: 5px;
+	color: black;
 }
 .tag.red 	{	background-color: #ff3333;	}
 .tag.blue 	{	background-color: #3399ff;	}
@@ -17,6 +18,7 @@
 .tag.cyan	{	background-color: #00ffcc;	}
 .tag.yellow	{	background-color: #ffcc00;	}
 .tag.grey 	{	background-color: #b3b3b3;	}
+.tag.white-text { color: white; }
 
 .button.tag
 {

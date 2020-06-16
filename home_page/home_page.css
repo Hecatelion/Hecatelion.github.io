@@ -27,6 +27,45 @@ section.project-catalogue li
 	margin-left: 3%;
 }
 
+.img-container
+{
+	position: relative;
+}
+
+.overlay 
+{
+  position: absolute;
+  top: 0;
+  bottom: 5px;
+  left: 0;
+  right: -2px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000bf;
+}
+
+.img-container:hover .overlay
+{
+	opacity: 1;
+}
+
+.hover-content
+{
+	opacity: 1;
+}
+.hover-content div
+{
+	margin-bottom: 8px;
+	text-align: center;
+}
+.hover-content p
+{
+	font-size: 1.5em;
+	color: white;
+	margin: 15px 0px;
+	text-align: center;
+}
+
 section.project-catalogue img
 {
 	width: 100%;
