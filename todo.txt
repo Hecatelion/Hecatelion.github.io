@@ -1,8 +1,6 @@
-• <download> (fancy button)
-
 • make it fancy (colors)
 
-• home page : hover (roles) (wip)
+• home page : hover (roles) (date)
 
 • footer
 
