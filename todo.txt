@@ -1,11 +1,9 @@
+• <download> (fancy button)
+
 • make it fancy (colors)
 
 • home page : hover (roles) (wip)
 
-• <tag> (for game type)
-
 • footer
 
 • icone onglet
-
-• <download> (fancy button)
