@@ -43,6 +43,19 @@ li
 	text-align: center;
 }
 
+.prog-title
+{
+	color: #0066ff;
+}
+.gd-title
+{
+	color: #be0000;
+}
+.ld-title
+{
+	color: #e67300; /* a bit darker : #cc6600; */
+}
+
 .tasks
 {
 	font-size: 1.2em;
@@ -62,21 +75,14 @@ li
 .task-section
 {
 	padding: 0px 20px;
+	min-width: 20%;
 }
 
 #task-anchor
 {
 	height: 25px;
 }
-
-/*
-#prog-task-section
+.detail > h1 > a
 {
-	background-color: red;
+	color: black;
 }
-
-#LD-task-section
-{
-	background-color: green;
-}
-*/
