@@ -3,6 +3,7 @@ body
 	margin: 0px;
 	background-color: #fbfbfb;
 	font-family: Arial, Verdana, sans-serif;
+	min-height: 100%;
 }
 
 header
@@ -12,6 +13,8 @@ header
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
+	width: 100%;
 }
 header h1
 {
