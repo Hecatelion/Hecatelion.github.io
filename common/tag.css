@@ -19,7 +19,9 @@
 .tag.cyan	{	background-color: #00ffcc;	}
 .tag.yellow	{	background-color: #ffcc00;	}
 .tag.grey 	{	background-color: #b3b3b3;	}
+
 .tag.white-text { color: white; }
+.tag.no-underline  { text-decoration: none; }
 
 .button.tag
 {

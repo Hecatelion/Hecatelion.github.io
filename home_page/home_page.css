@@ -81,3 +81,12 @@ figcaption
 	text-align: center;
 	font-size: 1.2em;
 }
+
+section a 
+{
+	text-decoration: none;
+}
+section figcaption .caption
+{
+	text-decoration: underline;
+}
