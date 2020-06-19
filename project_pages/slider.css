@@ -22,7 +22,11 @@ html, body
 
 .slider > button
 {
-	/*background-color: whiet;*/
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 1.8em;
+	font-weight: bold;
 }
 
 slider
