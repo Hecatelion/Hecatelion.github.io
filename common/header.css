@@ -12,7 +12,7 @@ header
 
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 
 	width: 100%;
 }
@@ -49,4 +49,5 @@ header a:visited
 #home-link a, #contact-link a
 {
 	font-size: 1.5em;
+	text-align: center;
 }

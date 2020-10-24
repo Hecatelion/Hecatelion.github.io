@@ -90,3 +90,18 @@ section figcaption .caption
 {
 	text-decoration: underline;
 }
+
+#trailer-container
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	margin-bottom: 40px;
+}
+
+#trailer
+{
+	width: 60%;
+	margin: auto;
+}
